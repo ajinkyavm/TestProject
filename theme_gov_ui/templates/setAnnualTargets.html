@@ -1,0 +1,90 @@
+<!--
+* setAnnualTargets.html
+* @project   ThemeGov - Wipro
+* @author wipro.com
+* @copyright Copyright (c) 2017 Wipro Technologies
+-->
+
+<div class="innerPage">
+	<div class="row col-xs-12 col-sm-12 col-md-12" id="financialYear">FY 2017-18</div>
+	<div class="row">
+		<div class="hidden-xs col-sm-2 col-md-2"></div>
+		<div class="row col-xs-12 col-sm-8 col-md-8 data-container">
+			<div class = "data-container-header">
+				<div class="col-xs-3 col-sm-3 col-md-3 container-nav">
+					<a ui-sref=".q1Goals">Q1 Goals</a>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 container-nav">
+					<a ui-sref=".q2Goals">Q2 Goals</a>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 container-nav">
+					<a ui-sref=".q3Goals">Q3 Goals</a>
+				</div>
+				<div class="col-xs-3 col-sm-3 col-md-3 container-nav">
+					<a ui-sref=".q4Goals">Q4 Goals</a>
+				</div>
+			</div>
+			<div class = "data-container-content" ui-view >
+				
+			</div>
+		</div>
+		<div class="hidden-xs col-sm-2 col-md-2"></div>
+	</div>
+	
+	<div class="row margin-top-2rem">
+		<div class="hidden-xs col-sm-2 col-md-2"></div>
+		<div class="row col-xs-12 col-sm-8 col-md-8 data-container">
+			<div class = "data-container-header">
+				<div class="container-title">
+					QPLC Goals (Annual)
+				</div>
+			</div>
+			<div class = "data-container-content">
+				<div class="row">
+					<div class="col-xs-8 col-sm-6 col-md-6 text-right padding-right-1rem">
+						OB (ACV) - Holmes for Business
+					</div>
+					<div class="col-xs-2 col-sm-3 col-md-3 text-center" >
+						<input type="number" placeholder="M$" ng-readonly="true" />
+						<span class="indication">FY COMMIT</span>
+					</div>
+					<div class="col-xs-2 col-sm-3 col-md-3 text-center">
+						<input type="number" placeholder="M$" ng-readonly="true"/>
+						<span class="indication">FY TARGET</span>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-8 col-sm-6 col-md-6 text-right padding-right-1rem">
+						Video testimonials
+					</div>
+					<div class="col-xs-2 col-sm-3 col-md-3 text-center">
+						<input type="number" placeholder="M$" ng-readonly="true"/>
+						<span class="indication">FY TARGET</span>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-8 col-sm-6 col-md-6 text-right padding-right-1rem">
+						Number of Consultants
+					</div>
+					<div class="col-xs-2 col-sm-3 col-md-3 text-center">
+						<input type="number" placeholder="M$" ng-readonly="true"/>
+						<span class="indication">FY TARGET</span>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-8 col-sm-6 col-md-6 text-right padding-right-1rem">
+						Number of Pilots / Pocs
+					</div>
+					<div class="col-xs-2 col-sm-3 col-md-3 text-center">
+						<input type="number" placeholder="M$" ng-readonly="true"/>
+						<span class="indication">FY TARGET</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hidden-xs col-sm-2 col-md-2"></div>
+	</div>
+</div>

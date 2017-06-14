@@ -1,0 +1,262 @@
+.headerPane{
+	padding: 2rem 0;
+}
+
+.padding-top-1rem { padding-top: 1rem; }
+.padding-right-1rem { padding-right: 1rem !important;}
+
+
+.margin-top-1rem { margin-top: 1rem; }
+.margin-top-2rem { margin-top: 2rem; }
+
+a { cursor: pointer; }
+
+.loginpage-header div{ 
+	height: 5rem; 
+	text-align: center;
+	font-size: 3rem;
+	color: #222222;
+	text-transform: uppercase;
+	background: #D9645A;
+	line-height: 5rem;
+	font-weight: bold;
+}
+
+.in-app-header {
+	padding: 0 15px;	
+	background: #E8B81A;
+	margin-top: 15px;
+}
+
+.loginpage-content{
+	margin-top: 50px;
+}
+
+.loginpage-content input{
+	width: 100%;
+	height: 4rem; 
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid white;
+	margin: 1rem 0; 
+	font-size: 1.625rem;
+	padding: 0.625rem;
+}
+
+.loginpage-content button{
+	width: 100%;
+	height: 4rem;
+	background: #E8B81A;
+	border: none;
+	margin: 1rem 0; 
+	font-size: 1.625rem;
+	padding: 0.625rem;
+}
+
+.col-centered-all {
+    float: none;
+    margin: 0 auto;
+}
+
+.welcomeUser{
+	font-size: 2rem;
+	line-height: 5rem;
+}
+
+.appName{
+	font-size: 1.5rem;
+	color: #354459;
+}
+
+.themeName{
+	font-size: 2rem;
+	color: #8C4646;
+}
+
+.logoutanchor{
+	font-size: 2rem;
+    color: #222222;
+    line-height: 4.5rem;
+}
+
+.daysToGoPanel {
+	border: 1px solid #222222;
+	font-size: 3rem;
+	background: rgba(255, 255, 255, 0);
+	color: #222222;
+	float: left;
+	margin: 5px 0;
+}
+
+.daysToGoPanel span{
+	font-size: 0.8rem;
+    margin: 10px;
+    float: right;
+    text-align: left;
+}
+
+#navigation-pane a{
+	display: block;
+    background: #D7655A;
+    margin: 1px;
+    height: 2.857rem;
+    text-align: center;
+    padding: 10px;
+    color: #222222;
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+    cursor: pointer;
+}
+
+#navigation-pane a:hover{
+	background: #F2AD74;
+	text-decoration: none;
+}
+
+#navigation-pane div{
+    padding: 0px;
+}
+
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.innerPage{
+	padding: 2rem;
+}
+
+#financialYear{
+	text-align: center;
+	font-size: 3rem;
+	color: #E8B81A;
+}
+
+.data-container{
+	padding: 0;
+}
+
+.data-container .data-container-header{
+	background: #354459;
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	height: 2.571rem;
+}
+
+.data-container .data-container-header .serial-no{
+	float: left;
+	padding: 0.2rem 0.5rem;
+}
+
+.data-container .data-container-header .container-title{
+	padding: 0.2rem 0.5rem;
+	float: left;
+}
+
+.data-container .data-container-header .container-nav{
+	padding: 0.2rem 0.5rem;
+	text-align: center;
+	border: 1px solid #222222;
+	height: 36px;
+}
+
+.data-container .data-container-header .container-nav a{
+	color: #FFFFFF;
+	display: block;
+}
+
+.data-container{
+	overflow: hidden;
+	height: 500px;
+}
+
+.data-container-content{
+	background: #dfe4ec;
+	padding: 1rem;
+	font-size: 1.5rem;
+	position: absolute;
+}
+
+.data-container-content input[type='number']{
+	width: 80%;
+	text-align: center;
+}
+
+.data-container-content [class*=col]{
+	padding: 0px;
+}
+
+.data-container-content .indication{
+	font-size: 1rem;
+	display: block;
+}
+
+.saveButton a{
+	background: #354459;
+	width: 75px;
+    height: 75px;
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: 85px;
+    font-size: 3rem;
+    color: #FFFFFF;
+    border-radius: 40px;
+}
+
+/**.data-container-content.ng-enter {
+    transition: 2s;
+    opacity: 0;
+}
+
+.data-container-content.ng-enter-active {
+    opacity: 1;
+}
+*/
+
+.data-container-content.ng-enter 		{  
+    -webkit-animation:slideInRight 0.5s both ease-in;
+	-moz-animation:slideInRight 0.5s both ease-in;
+	animation:slideInRight 0.5s both ease-in;    
+}
+
+.data-container-content.ng-leave        {
+    -webkit-animation:slideOutLeft 0.5s both ease-in;
+	-moz-animation:slideOutLeft 0.5s both ease-in;
+	animation:slideOutLeft 0.5s both ease-in;   
+}
+
+@keyframes slideOutLeft {
+	to 		{ transform: translateX(-100%); }
+}
+@-moz-keyframes slideOutLeft {
+	to 		{ -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes slideOutLeft {
+	to 		{ -webkit-transform: translateX(-100%); }
+}
+
+@keyframes slideInRight {
+	from 	{ transform:translateX(100%); }
+	to 		{ transform: translateX(0); }
+}
+@-moz-keyframes slideInRight {
+	from 	{ -moz-transform:translateX(100%); }
+	to 		{ -moz-transform: translateX(0); }
+}
+@-webkit-keyframes slideInRight {
+	from 	{ -webkit-transform:translateX(100%); }
+	to 		{ -webkit-transform: translateX(0); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

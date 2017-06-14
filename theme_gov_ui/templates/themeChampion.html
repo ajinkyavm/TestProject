@@ -1,0 +1,30 @@
+<!--
+* themeChampionHome.html
+* @project   ThemeGov - Wipro
+* @author wipro.com
+* @copyright Copyright (c) 2017 Wipro Technologies
+-->
+
+<div class="padding-top-1rem">
+	<div class = "in-app-header">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="col-xs-6 col-sm-12 col-md-12 appName">Theme Board</div>
+				<div class="col-xs-6 col-sm-12 col-md-12 themeName">Holmes</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 text-center welcomeUser">Hi, {{username}}!</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 text-right">
+				<div class="daysToGoPanel">
+					14<span>DAYS<br /> TO GO</span>
+				</div>
+				<a href="#/logout"><span class="glyphicon glyphicon-log-out logoutanchor"></span></a>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="navigation-pane">
+		<div class="col-xs-4 col-sm-4 col-md-4"><a ui-sref=".setAnnualTargets">Set Annual Targets</a></div>
+		<div class="col-xs-4 col-sm-4 col-md-4"><a ui-sref=".updateMarkers">Update Markers</a></div>
+		<div class="col-xs-4 col-sm-4 col-md-4"><a ui-sref=".downloadReports">Download Reports</a></div>
+	</div>
+	<div ui-view></div>
+</div>
